@@ -24,6 +24,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/raphael/proprietary/etc/cne/Nexus/ROW/ROW_profiles.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/cne/Nexus/ROW/ROW_profiles.xml \
     vendor/xiaomi/raphael/proprietary/etc/cne/Nexus/VZW/VZW_profiles.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/cne/Nexus/VZW/VZW_profiles.xml \
     vendor/xiaomi/raphael/proprietary/etc/excluded-input-devices.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/excluded-input-devices.xml \
+    vendor/xiaomi/raphael/proprietary/etc/goodix/BMatrix.so:$(TARGET_COPY_OUT_SYSTEM)/etc/goodix/BMatrix.so \
+    vendor/xiaomi/raphael/proprietary/etc/goodix/caliParamsInfo.so:$(TARGET_COPY_OUT_SYSTEM)/etc/goodix/caliParamsInfo.so \
     vendor/xiaomi/raphael/proprietary/etc/init/wfdservice.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/wfdservice.rc \
     vendor/xiaomi/raphael/proprietary/etc/permissions/com.qualcomm.qti.imscmservice.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.qualcomm.qti.imscmservice.xml \
     vendor/xiaomi/raphael/proprietary/etc/permissions/privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-qti.xml \
