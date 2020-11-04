@@ -1017,8 +1017,15 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/raphael/proprietary/vendor/radio/qcril_database/upgrade/4_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/4_version_update_ecc_table.sql \
     vendor/xiaomi/raphael/proprietary/vendor/radio/qcril_database/upgrade/5_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/5_version_update_ecc_table.sql \
     vendor/xiaomi/raphael/proprietary/vendor/radio/qcril_database/upgrade/6_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/6_version_update_ecc_table.sql \
-    vendor/xiaomi/raphael/proprietary/vendor/radio/qcril_database/upgrade/7_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/7_version_update_ecc_table.sql
-
+    vendor/xiaomi/raphael/proprietary/vendor/radio/qcril_database/upgrade/7_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/7_version_update_ecc_table.sql \
+    vendor/xiaomi/raphael/proprietary/product/vendor_overlay/29/lib64/soundfx/libvolumelistener.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/soundfx/libvolumelistener.so \
+    vendor/xiaomi/raphael/proprietary/media/audio/ui/popup_throne_room_down.ogg:$(TARGET_COPY_OUT_SYSTEM)/media/audio/ui/popup_throne_room_down.ogg \
+    vendor/xiaomi/raphael/proprietary/media/audio/ui/popup_throne_room_up.ogg:$(TARGET_COPY_OUT_SYSTEM)/media/audio/ui/popup_throne_room_up.ogg \
+    vendor/xiaomi/raphael/proprietary/media/audio/ui/popup_lightsaber_down.ogg:$(TARGET_COPY_OUT_SYSTEM)/media/audio/ui/popup_lightsaber_down.ogg \
+    vendor/xiaomi/raphael/proprietary/media/audio/ui/popup_lightsaber_up.ogg:$(TARGET_COPY_OUT_SYSTEM)/media/audio/ui/popup_lightsaber_up.ogg \
+    vendor/xiaomi/raphael/proprietary/media/audio/ui/popup_imperial_march_down.ogg:$(TARGET_COPY_OUT_SYSTEM)/media/audio/ui/popup_imperial_march_down.ogg \
+    vendor/xiaomi/raphael/proprietary/media/audio/ui/popup_imperial_march_up.ogg:$(TARGET_COPY_OUT_SYSTEM)/media/audio/ui/popup_imperial_march_up.ogg 
+        
 PRODUCT_PACKAGES += \
     libplatformconfig \
     vendor.qti.hardware.fm@1.0 \
