@@ -226,4 +226,4 @@ cc_prebuilt_library_shared {
 	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
-}4
+}
