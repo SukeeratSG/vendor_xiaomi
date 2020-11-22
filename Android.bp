@@ -208,3 +208,22 @@ prebuilt_etc_xml {
 	soc_specific: true,
 }
 
+cc_prebuilt_library_shared {
+	name: "libmm-omxcore",
+	owner: "xiaomi",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libmm-omxcore.so"],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libmm-omxcore.so"],
+		},
+	},
+	compile_multilib: "both",
+	check_elf_files: false,
+	prefer: true,
+	soc_specific: true,
+}4
